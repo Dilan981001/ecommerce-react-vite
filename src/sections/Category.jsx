@@ -13,7 +13,7 @@ const Category = () => {
     useEffect(()=>{
       AOS.init({
         offset:100,
-        durationi: 500,
+        duration: 500,
         easing:'ease-in-out',
     });
     AOS.refresh();
